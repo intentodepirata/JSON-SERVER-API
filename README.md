@@ -13,25 +13,23 @@
 # Instrucciones:
 
 1. En la terminal, ejecuta el siguiente comando para instalar las dependencias:
-   '''
+   ```
    npm install -g json-server
-   '''
+   ```
 2. Agregar dentro de db.json los datos que quieras simular que estan en tu DB (He dejado un ejemplo)
 
 3. Levantar la API (por defecto escuchara por: 'http://localhost:3000')
-   '''
+
+   ```
    json-server --watch db.json
-   '''
+   ```
 
 4. Opcional: Agrega una api-key, utilizar el siguiente comando para levantar el servidor (La apikey sera por defecto usara 'secretkey')
-   '''
+   ```
    json-server --watch db.json --middlewares ./auth-middleware.js
-   '''
-
-PUEDES HACER TODO TIPO DE REQUEST!!
-
-GET POST PUT DELETE
-PD: Tambien tiene paginacion, filtros, sort etc
+   ```
+5. Puedes hacer de todo, GET POST PUT DELETE
+   PD: Tambien tiene paginacion, filtros, sort etc
 
 ## Documentacion:
 
