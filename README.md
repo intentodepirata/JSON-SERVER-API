@@ -29,7 +29,7 @@
    json-server --watch db.json --middlewares ./auth-middleware.js
    ```
 5. Puedes hacer de todo, GET POST PUT DELETE
-   PD: Tambien tiene paginacion, filtros, sort etc
+6. Tambien admite paginacion, filtros, sort, etc
 
 ## Documentacion:
 
