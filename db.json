@@ -3,14 +3,95 @@
     {
       "id": 1,
       "datetime": "2023-08-25 10:00:00",
-      "numserie": "123456789",
-      "usage": 250
+      "numserie": "PRUEBAIPMETER03.2",
+      "usage": 400
     },
     {
       "id": 2,
       "datetime": "2023-08-25 11:30:00",
       "numserie": "987654321",
       "usage": 180
+    }
+  ],
+  "sims": [
+    {
+      "iccid": "SIMCARD_0001",
+      "msisdn": "",
+      "month_to_date_bytes_up": "34000",
+      "month_to_date_bytes_down": "17786",
+      "month_to_date_voice_up": "0",
+      "month_to_date_voice_down": "0",
+      "month_to_date_sms_up": "0",
+      "month_to_date_sms_down": "0",
+      "last_seen": "2023-09-01 00:23:01",
+      "in_current_session": false
+    },
+    {
+      "iccid": "SIMCARD_0002",
+      "msisdn": "",
+      "month_to_date_bytes_up": "15618",
+      "month_to_date_bytes_down": "16786",
+      "month_to_date_voice_up": "0",
+      "month_to_date_voice_down": "0",
+      "month_to_date_sms_up": "0",
+      "month_to_date_sms_down": "0",
+      "last_seen": "2023-09-01 00:23:01",
+      "in_current_session": false
+    },
+    {
+      "iccid": "SIMCARD_0003",
+      "msisdn": "",
+      "month_to_date_bytes_up": "97777",
+      "month_to_date_bytes_down": "16786",
+      "month_to_date_voice_up": "0",
+      "month_to_date_voice_down": "0",
+      "month_to_date_sms_up": "0",
+      "month_to_date_sms_down": "0",
+      "last_seen": "2023-09-01 00:23:01",
+      "in_current_session": false
+    }
+    
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Maria",
+      "numserie": "SIMCARD_0001",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "username": "Antonio",
+      "numserie": "SIMCARD_0002",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "username": "Adriano",
+      "numserie": "SIMCARD_0003",
+      "status": "No Active"
+    },
+    {
+      "id": 4,
+      "username": "Pedro",
+      "numserie": "SIMCARD_0004",
+      "status": "Error"
+    },
+    {
+      "id": 5,
+      "username": "Juan",
+      "numserie": "SIMCARD_0005",
+      "status": "Request denied"
+    },
+    {
+      "numserie": "SIMCARD_0002",
+      "status": "Pending",
+      "id": 6
+    },
+    {
+      "numserie": "SIMCARD_0002",
+      "status": "Pending",
+      "id": 7
     }
   ]
 }
