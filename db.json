@@ -1,50 +1,80 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "Maria",
-      "numserie": "SIMCARD_0001",
-      "status": "Active"
-    },
-    {
-      "id": 2,
-      "username": "Antonio",
-      "numserie": "SIMCARD_0002",
-      "status": "Active"
-    },
-    {
-      "id": 3,
-      "username": "Adriano",
-      "numserie": "SIMCARD_0003",
-      "status": "No Active"
-    },
-    {
-      "id": 4,
-      "username": "Pedro",
-      "numserie": "SIMCARD_0004",
-      "status": "Error"
-    },
-    {
-      "id": 5,
-      "username": "Juan",
-      "numserie": "SIMCARD_0005",
-      "status": "Request denied"
-    },
-    {
-      "numserie": "SIMCARD_0002",
-      "status": "Pending",
-      "id": 6
-    },
-    {
-      "numserie": "SIMCARD_0002",
-      "status": "Pending",
-      "id": 7
-    }
-  ],
   "sims": [
     {
-      "iccid": "SIMCARD_0001",
-      "msisdn": "",
+      "id": 8086777,
+      "iccid": "89883040000025656609",
+      "eid": "89033023311330000000008781956929",
+      "msisdn": "883190100676550",
+      "imsi": null,
+      "status": "active",
+      "workflow_status": null
+    },
+    {
+      "id": 8086778,
+      "iccid": "89883040000025656617",
+      "eid": "89033023311330000000008781957030",
+      "msisdn": "883190100676551",
+      "imsi": null,
+      "status": "active",
+      "workflow_status": null
+    },
+    {
+      "id": 8086779,
+      "iccid": "89883040000025656618",
+      "eid": "89033023311330000000008781957031",
+      "msisdn": "883190100676552",
+      "imsi": null,
+      "status": "in_progress",
+      "workflow_status": null
+    },
+    {
+      "id": 8086780,
+      "iccid": "89883040000025656619",
+      "eid": "89033023311330000000008781957032",
+      "msisdn": "883190100676553",
+      "imsi": null,
+      "status": "in_progress",
+      "workflow_status": null
+    }
+  ],
+  "requests": [
+    {
+      "id": 30667203,
+      "sim": "89883040000025656609",
+      "status": "activated",
+      "error_message": "Error activate",
+      "created": "2023-09-11T711:10:32+01:00",
+      "action": "activate"
+    },
+    {
+      "id": 30667204,
+      "sim": "89883040000025656617",
+      "status": "activated",
+      "error_message": "Error activate",
+      "created": "2023-09-11T711:10:32+01:00",
+      "action": "activate"
+    },
+    {
+      "id": 30667205,
+      "sim": "89883040000025656618",
+      "status": "in_progress",
+      "error_message": "Error activate",
+      "created": "2023-09-11T711:10:32+01:00",
+      "action": "activate"
+    },
+    {
+      "id": 30667206,
+      "sim": "89883040000025656619",
+      "status": "in_progress",
+      "error_message": "Error activate",
+      "created": "2023-09-11T711:10:32+01:00",
+      "action": "cancel"
+    }
+  ],
+  "usage": [
+    {
+      "iccid": "89883040000025656609",
+      "msisdn": "883190100676550",
       "month_to_date_bytes_up": "34000",
       "month_to_date_bytes_down": "17786",
       "month_to_date_voice_up": "0",
@@ -55,8 +85,8 @@
       "in_current_session": false
     },
     {
-      "iccid": "SIMCARD_0002",
-      "msisdn": "",
+      "iccid": "89883040000025656617",
+      "msisdn": "883190100676551",
       "month_to_date_bytes_up": "15618",
       "month_to_date_bytes_down": "16786",
       "month_to_date_voice_up": "0",
@@ -67,8 +97,8 @@
       "in_current_session": false
     },
     {
-      "iccid": "SIMCARD_0003",
-      "msisdn": "",
+      "iccid": "89883040000025656618",
+      "msisdn": "883190100676552",
       "month_to_date_bytes_up": "97777",
       "month_to_date_bytes_down": "16786",
       "month_to_date_voice_up": "0",
