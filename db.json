@@ -1,5 +1,6 @@
 {
   "sims": [
+   
     {
       "id": 8086777,
       "iccid": "89883040000025656609",
@@ -37,6 +38,9 @@
       "workflow_status": null
     }
   ],
+  "sims_activations": [{
+    "id": 1
+  }],
   "requests": [
     {
       "id": 30667203,
