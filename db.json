@@ -1,6 +1,5 @@
 {
   "sims": [
-   
     {
       "id": 8086777,
       "iccid": "89883040000025656609",
@@ -38,9 +37,15 @@
       "workflow_status": null
     }
   ],
-  "sims_activations": [{
-    "id": 1
-  }],
+  "sims_activations": [
+    {
+      "iccids": [
+        "23123123"
+      ],
+      "customer_solucion": "ZA-241 - Conexa-OS - 25.00 megabytes - 12 meses - 4g -EU_Roam_Z1_C4-F1 - Private Fixed IP NO VPN Tarifa Low",
+      "id": 1
+    }
+  ],
   "requests": [
     {
       "id": 30667203,
@@ -112,7 +117,5 @@
       "last_seen": "2023-09-01 00:23:01",
       "in_current_session": false
     }
-    
   ]
-  
 }

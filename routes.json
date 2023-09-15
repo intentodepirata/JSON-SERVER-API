@@ -1,4 +1,3 @@
 {
-    "/sims/activations/*": "/sims_activations/*"
-  }
-  
+  "/sims/activations": "/sims_activations/"
+}

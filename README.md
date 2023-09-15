@@ -25,9 +25,23 @@
    ```
 
 4. Opcional: Agrega una api-key, utilizar el siguiente comando para levantar el servidor (La apikey sera por defecto usara 'secretkey')
+   agrega subrutas o rutas personalizadas creando un archivo 'routes.json' con las siguiente sintaxis:
+
    ```
-   json-server --watch db.json --middlewares ./auth-middleware.js
+   // En este caso, la ruta http://localhost:3000/sims/activations apuntara a un objeto llamado sims_activations en el db.json
+
+   {
+   "/sims/activations": "/sims_activations/"
+   }
+
    ```
+
+   4.1 Abre una terminal a la altura del db.json y ejecuta:
+
+   ```
+   json-server --watch db.json --middlewares ./auth-middleware.js --routes routes.json
+   ```
+
 5. Puedes hacer de todo, GET POST PUT DELETE
 6. Tambien admite paginacion, filtros, sort, etc
 
