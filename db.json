@@ -1,38 +1,72 @@
 {
+  "requests": [
+    {
+      "action": "activate",
+      "created": "2023-09-11T711:10:32+01:00",
+      "error_message": "Error activate",
+      "id": 30667203,
+      "sim": "89883040000025656609",
+      "status": "activated"
+    },
+    {
+      "action": "activate",
+      "created": "2023-09-11T711:10:32+01:00",
+      "error_message": "Error activate",
+      "id": 30667204,
+      "sim": "89883040000025656617",
+      "status": "activated"
+    },
+    {
+      "action": "activate",
+      "created": "2023-09-11T711:10:32+01:00",
+      "error_message": "Error activate",
+      "id": 30667205,
+      "sim": "89883040000025656618",
+      "status": "in_progress"
+    },
+    {
+      "action": "cancel",
+      "created": "2023-09-11T711:10:32+01:00",
+      "error_message": "Error activate",
+      "id": 30667206,
+      "sim": "89883040000025656619",
+      "status": "in_progress"
+    }
+  ],
   "sims": [
     {
-      "id": 8086777,
-      "iccid": "89883040000025656609",
       "eid": "89033023311330000000008781956929",
+      "iccid": "89883040000025656609",
+      "id": 8086777,
+      "imsi": null,
       "msisdn": "883190100676550",
-      "imsi": null,
       "status": "active",
       "workflow_status": null
     },
     {
-      "id": 8086778,
-      "iccid": "89883040000025656617",
       "eid": "89033023311330000000008781957030",
-      "msisdn": "883190100676551",
+      "iccid": "89883040000025656617",
+      "id": 8086778,
       "imsi": null,
+      "msisdn": "883190100676551",
       "status": "active",
       "workflow_status": null
     },
     {
-      "id": 8086779,
-      "iccid": "89883040000025656618",
       "eid": "89033023311330000000008781957031",
-      "msisdn": "883190100676552",
+      "iccid": "89883040000025656618",
+      "id": 8086779,
       "imsi": null,
+      "msisdn": "883190100676552",
       "status": "in_progress",
       "workflow_status": null
     },
     {
-      "id": 8086780,
-      "iccid": "89883040000025656619",
       "eid": "89033023311330000000008781957032",
-      "msisdn": "883190100676553",
+      "iccid": "89883040000025656619",
+      "id": 8086780,
       "imsi": null,
+      "msisdn": "883190100676553",
       "status": "in_progress",
       "workflow_status": null
     }
@@ -40,82 +74,48 @@
   "sims_activations": [
     {
       "iccids": [
-        "23123123"
+        null
       ],
-      "customer_solucion": "ZA-241 - Conexa-OS - 25.00 megabytes - 12 meses - 4g -EU_Roam_Z1_C4-F1 - Private Fixed IP NO VPN Tarifa Low",
+      "customer_solution": "ZA-241 - Conexa-OS - 25.00 megabytes -\n    12 meses - 4g - EU_Roam_Z1_C4-F1 - Private Fixed IP NO VPN Tarifa Low",
       "id": 1
-    }
-  ],
-  "requests": [
-    {
-      "id": 30667203,
-      "sim": "89883040000025656609",
-      "status": "activated",
-      "error_message": "Error activate",
-      "created": "2023-09-11T711:10:32+01:00",
-      "action": "activate"
-    },
-    {
-      "id": 30667204,
-      "sim": "89883040000025656617",
-      "status": "activated",
-      "error_message": "Error activate",
-      "created": "2023-09-11T711:10:32+01:00",
-      "action": "activate"
-    },
-    {
-      "id": 30667205,
-      "sim": "89883040000025656618",
-      "status": "in_progress",
-      "error_message": "Error activate",
-      "created": "2023-09-11T711:10:32+01:00",
-      "action": "activate"
-    },
-    {
-      "id": 30667206,
-      "sim": "89883040000025656619",
-      "status": "in_progress",
-      "error_message": "Error activate",
-      "created": "2023-09-11T711:10:32+01:00",
-      "action": "cancel"
     }
   ],
   "usage": [
     {
       "iccid": "89883040000025656609",
-      "msisdn": "883190100676550",
-      "month_to_date_bytes_up": "34000",
-      "month_to_date_bytes_down": "17786",
-      "month_to_date_voice_up": "0",
-      "month_to_date_voice_down": "0",
-      "month_to_date_sms_up": "0",
-      "month_to_date_sms_down": "0",
+      "in_current_session": false,
       "last_seen": "2023-09-01 00:23:01",
-      "in_current_session": false
+      "month_to_date_bytes_down": "17786",
+      "month_to_date_bytes_up": "34000",
+      "month_to_date_sms_down": "0",
+      "month_to_date_sms_up": "0",
+      "month_to_date_voice_down": "0",
+      "month_to_date_voice_up": "0",
+      "msisdn": "883190100676550"
     },
     {
       "iccid": "89883040000025656617",
-      "msisdn": "883190100676551",
-      "month_to_date_bytes_up": "15618",
-      "month_to_date_bytes_down": "16786",
-      "month_to_date_voice_up": "0",
-      "month_to_date_voice_down": "0",
-      "month_to_date_sms_up": "0",
-      "month_to_date_sms_down": "0",
+      "in_current_session": false,
       "last_seen": "2023-09-01 00:23:01",
-      "in_current_session": false
+      "month_to_date_bytes_down": "16786",
+      "month_to_date_bytes_up": "15618",
+      "month_to_date_sms_down": "0",
+      "month_to_date_sms_up": "0",
+      "month_to_date_voice_down": "0",
+      "month_to_date_voice_up": "0",
+      "msisdn": "883190100676551"
     },
     {
       "iccid": "89883040000025656618",
-      "msisdn": "883190100676552",
-      "month_to_date_bytes_up": "97777",
-      "month_to_date_bytes_down": "16786",
-      "month_to_date_voice_up": "0",
-      "month_to_date_voice_down": "0",
-      "month_to_date_sms_up": "0",
-      "month_to_date_sms_down": "0",
+      "in_current_session": false,
       "last_seen": "2023-09-01 00:23:01",
-      "in_current_session": false
+      "month_to_date_bytes_down": "16786",
+      "month_to_date_bytes_up": "97777",
+      "month_to_date_sms_down": "0",
+      "month_to_date_sms_up": "0",
+      "month_to_date_voice_down": "0",
+      "month_to_date_voice_up": "0",
+      "msisdn": "883190100676552"
     }
   ]
 }
