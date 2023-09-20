@@ -73,10 +73,10 @@
   ],
   "sims_activations": [
     {
+      "customer_solution": "ZA-241 - Conexa-OS - 25.00 megabytes -\n    12 meses - 4g - EU_Roam_Z1_C4-F1 - Private Fixed IP NO VPN Tarifa Low",
       "iccids": [
         null
       ],
-      "customer_solution": "ZA-241 - Conexa-OS - 25.00 megabytes -\n    12 meses - 4g - EU_Roam_Z1_C4-F1 - Private Fixed IP NO VPN Tarifa Low",
       "id": 1
     }
   ],
@@ -86,7 +86,7 @@
       "in_current_session": false,
       "last_seen": "2023-09-01 00:23:01",
       "month_to_date_bytes_down": "17786",
-      "month_to_date_bytes_up": "34000",
+      "month_to_date_bytes_up": "35040",
       "month_to_date_sms_down": "0",
       "month_to_date_sms_up": "0",
       "month_to_date_voice_down": "0",
@@ -97,7 +97,7 @@
       "iccid": "89883040000025656617",
       "in_current_session": false,
       "last_seen": "2023-09-01 00:23:01",
-      "month_to_date_bytes_down": "16786",
+      "month_to_date_bytes_down": "16986",
       "month_to_date_bytes_up": "15618",
       "month_to_date_sms_down": "0",
       "month_to_date_sms_up": "0",
