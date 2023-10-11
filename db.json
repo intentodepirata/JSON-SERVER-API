@@ -6,7 +6,7 @@
       "error_message": "Error activate",
       "id": 30667203,
       "sim": "89883040000025656609",
-      "status": "activated"
+      "status": "in_progress"
     },
     {
       "action": "activate",
@@ -14,7 +14,7 @@
       "error_message": "Error activate",
       "id": 30667204,
       "sim": "89883040000025656617",
-      "status": "activated"
+      "status": "complete"
     },
     {
       "action": "activate",
